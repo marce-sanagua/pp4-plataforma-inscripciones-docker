@@ -41,7 +41,7 @@ export const LoginForm = ({
     }
     try {
       const { data } = await axios.post(
-  `${process.env.NEXT_PUBLIC_ACADEMIC_API}/api/auth/login`,
+  `${process.env.NEXT_PUBLIC_USERS_API}/acceso`,
   formData);
       setUser(data.user);
       document.cookie = `token=${data.user.id}; path=/`;

@@ -25,8 +25,8 @@ Revisar si el proyecto tiene un archivo `.env.example` con las variables necesar
 
 | Variable | Descripción |
 |---|---|
-| `NEXT_PUBLIC_USERS_SERVICE_URL` | URL pública del `users-service` |
-| `NEXT_PUBLIC_ACADEMIC_SERVICE_URL` | URL pública del `academic-service` |
+| `NEXT_PUBLIC_USERS_API` | URL pública del `users-service` |
+| `NEXT_PUBLIC_ACADEMIC_API` | URL pública del `academic-service` |
 
 > Si el proyecto usa Nodemailer para enviar correos (por ejemplo, notificaciones o recuperación de contraseña), probablemente también se necesiten variables como `EMAIL_HOST`, `EMAIL_USER`, `EMAIL_PASSWORD`. Confirmar cuáles se usan revisando el código donde se llama a `nodemailer`.
 
